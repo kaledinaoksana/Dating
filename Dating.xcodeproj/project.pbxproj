@@ -7,22 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A739B3C28D103FD00F27DEA /* ButtonFigureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A739B3B28D103FD00F27DEA /* ButtonFigureView.swift */; };
+		2A739B3E28D1048100F27DEA /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A739B3D28D1048100F27DEA /* ColorExtension.swift */; };
+		2A739B4028D10FA300F27DEA /* RectangleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A739B3F28D10FA300F27DEA /* RectangleButton.swift */; };
+		2A739B4228D1CDD200F27DEA /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A739B4128D1CDD200F27DEA /* WelcomeView.swift */; };
+		2A739B4428D1DA6500F27DEA /* FontsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A739B4328D1DA6500F27DEA /* FontsView.swift */; };
+		2AE5631528E5A30D00F25B81 /* DayItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE5631428E5A30D00F25B81 /* DayItem.swift */; };
+		2AE5631728E5BE1D00F25B81 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE5631628E5BE1D00F25B81 /* DateExtension.swift */; };
 		2AFBDDC528D0FAF00031DFE8 /* DatingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFBDDC428D0FAF00031DFE8 /* DatingApp.swift */; };
-		2AFBDDC728D0FAF00031DFE8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFBDDC628D0FAF00031DFE8 /* ContentView.swift */; };
+		2AFBDDC728D0FAF00031DFE8 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFBDDC628D0FAF00031DFE8 /* ListView.swift */; };
 		2AFBDDC928D0FAF20031DFE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AFBDDC828D0FAF20031DFE8 /* Assets.xcassets */; };
 		2AFBDDCC28D0FAF20031DFE8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AFBDDCB28D0FAF20031DFE8 /* Preview Assets.xcassets */; };
-		2AFBDDCE28D0FAF20031DFE8 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFBDDCD28D0FAF20031DFE8 /* Persistence.swift */; };
 		2AFBDDD128D0FAF20031DFE8 /* Dating.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2AFBDDCF28D0FAF20031DFE8 /* Dating.xcdatamodeld */; };
+		2AFBDDD828D0FB3C0031DFE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFBDDD728D0FB3C0031DFE8 /* AppDelegate.swift */; };
+		2AFBDDDA28D0FB490031DFE8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFBDDD928D0FB490031DFE8 /* SceneDelegate.swift */; };
+		2AFBDDDC28D0FBF10031DFE8 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFBDDDB28D0FBF10031DFE8 /* StorageManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2A739B3B28D103FD00F27DEA /* ButtonFigureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonFigureView.swift; sourceTree = "<group>"; };
+		2A739B3D28D1048100F27DEA /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		2A739B3F28D10FA300F27DEA /* RectangleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleButton.swift; sourceTree = "<group>"; };
+		2A739B4128D1CDD200F27DEA /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		2A739B4328D1DA6500F27DEA /* FontsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontsView.swift; sourceTree = "<group>"; };
+		2AE5631428E5A30D00F25B81 /* DayItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayItem.swift; sourceTree = "<group>"; };
+		2AE5631628E5BE1D00F25B81 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
 		2AFBDDC128D0FAF00031DFE8 /* Dating.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dating.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AFBDDC428D0FAF00031DFE8 /* DatingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatingApp.swift; sourceTree = "<group>"; };
-		2AFBDDC628D0FAF00031DFE8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2AFBDDC628D0FAF00031DFE8 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		2AFBDDC828D0FAF20031DFE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2AFBDDCB28D0FAF20031DFE8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		2AFBDDCD28D0FAF20031DFE8 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		2AFBDDD028D0FAF20031DFE8 /* Dating.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Dating.xcdatamodel; sourceTree = "<group>"; };
+		2AFBDDD728D0FB3C0031DFE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2AFBDDD928D0FB490031DFE8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2AFBDDDB28D0FBF10031DFE8 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		2AFBDDDE28D0FD400031DFE8 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +75,19 @@
 			isa = PBXGroup;
 			children = (
 				2AFBDDC428D0FAF00031DFE8 /* DatingApp.swift */,
-				2AFBDDC628D0FAF00031DFE8 /* ContentView.swift */,
+				2AFBDDD728D0FB3C0031DFE8 /* AppDelegate.swift */,
+				2AFBDDD928D0FB490031DFE8 /* SceneDelegate.swift */,
+				2AFBDDDE28D0FD400031DFE8 /* Info.plist */,
+				2AFBDDC628D0FAF00031DFE8 /* ListView.swift */,
+				2A739B3B28D103FD00F27DEA /* ButtonFigureView.swift */,
+				2A739B4128D1CDD200F27DEA /* WelcomeView.swift */,
+				2A739B4328D1DA6500F27DEA /* FontsView.swift */,
+				2AE5631428E5A30D00F25B81 /* DayItem.swift */,
+				2AE5631628E5BE1D00F25B81 /* DateExtension.swift */,
+				2A739B3F28D10FA300F27DEA /* RectangleButton.swift */,
+				2A739B3D28D1048100F27DEA /* ColorExtension.swift */,
+				2AFBDDDD28D0FC090031DFE8 /* CoreData */,
 				2AFBDDC828D0FAF20031DFE8 /* Assets.xcassets */,
-				2AFBDDCD28D0FAF20031DFE8 /* Persistence.swift */,
-				2AFBDDCF28D0FAF20031DFE8 /* Dating.xcdatamodeld */,
 				2AFBDDCA28D0FAF20031DFE8 /* Preview Content */,
 			);
 			path = Dating;
@@ -71,6 +99,15 @@
 				2AFBDDCB28D0FAF20031DFE8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2AFBDDDD28D0FC090031DFE8 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				2AFBDDDB28D0FBF10031DFE8 /* StorageManager.swift */,
+				2AFBDDCF28D0FAF20031DFE8 /* Dating.xcdatamodeld */,
+			);
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,10 +180,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AFBDDCE28D0FAF20031DFE8 /* Persistence.swift in Sources */,
-				2AFBDDC728D0FAF00031DFE8 /* ContentView.swift in Sources */,
+				2AFBDDC728D0FAF00031DFE8 /* ListView.swift in Sources */,
+				2AE5631528E5A30D00F25B81 /* DayItem.swift in Sources */,
+				2A739B4428D1DA6500F27DEA /* FontsView.swift in Sources */,
 				2AFBDDD128D0FAF20031DFE8 /* Dating.xcdatamodeld in Sources */,
+				2AFBDDDC28D0FBF10031DFE8 /* StorageManager.swift in Sources */,
+				2AE5631728E5BE1D00F25B81 /* DateExtension.swift in Sources */,
+				2A739B3E28D1048100F27DEA /* ColorExtension.swift in Sources */,
+				2A739B4028D10FA300F27DEA /* RectangleButton.swift in Sources */,
+				2A739B4228D1CDD200F27DEA /* WelcomeView.swift in Sources */,
+				2AFBDDD828D0FB3C0031DFE8 /* AppDelegate.swift in Sources */,
 				2AFBDDC528D0FAF00031DFE8 /* DatingApp.swift in Sources */,
+				2AFBDDDA28D0FB490031DFE8 /* SceneDelegate.swift in Sources */,
+				2A739B3C28D103FD00F27DEA /* ButtonFigureView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,12 +323,15 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Dating/Preview Content\"";
 				DEVELOPMENT_TEAM = MFAANN4LAU;
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Dating/Info.plist;
+				"INFOPLIST_FILE[sdk=*]" = Dating/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = NO;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = NO;
+				INFOPLIST_KEY_UILaunchScreen_Generation = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -292,7 +341,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -306,12 +355,14 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Dating/Preview Content\"";
 				DEVELOPMENT_TEAM = MFAANN4LAU;
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Dating/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = NO;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = NO;
+				INFOPLIST_KEY_UILaunchScreen_Generation = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -321,7 +372,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
