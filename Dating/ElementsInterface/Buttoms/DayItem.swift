@@ -22,7 +22,7 @@ struct DayItem: View {
             ZStack{
                 
                 RectangleButton(
-                    mainColor: .appBack,
+                    mainColor: .yellow,
                     secondColor: .appAсcent.opacity(0.0),
                     border: .black)
                     .frame(height: 75)
@@ -43,6 +43,7 @@ struct DayItem: View {
                     }
                     
                 }
+                .foregroundColor(.black)
                 .padding()
                 
             }
@@ -57,7 +58,17 @@ struct DayItem: View {
 struct DayItem_Previews: PreviewProvider {
     
     static var previews: some View {
-        DayItem(day:Calendar.current.date(from: DateComponents(year: 2017, month: 10, day: 9))!, name: "Happy Birthday Tim")
+        VStack{
+            HStack{
+                Spacer()
+                ButtonFigureView(width: 44, color: Color.appMain, image: "cross.fill", boarder: .appAсcent)
+            }
+            DayItem(day:Calendar.current.date(from: DateComponents(year: 2017, month: 10, day: 9))!, name: "Happy Birthday Tim")
+                .frame(height: 90)
+            Spacer()
+   
+        }
+        
     }
 }
 

@@ -19,6 +19,7 @@ extension Date {
     }
     
     func years(calendar: Calendar = Calendar.current) -> Int {
+        
         return calendar.dateComponents([.year], from: self, to: Date()).year!
     }
     
@@ -32,19 +33,22 @@ extension Date {
         var yearsTo = date.years()
         var monthsTo = date.months()
         var daysTo = date.days()
-        
+
        
         if date > Date() {
-            print("date > DATE")
             string = enb(year: -yearsTo, month: -monthsTo, day: -daysTo+1)
         } else {
+            print("2 date > DATE")
+            print("\(date)")
             if let dateWithoutYears = Calendar.current.date(byAdding: .year, value: yearsTo+1, to: date) {
                 if let dateNew = Calendar.current.date(byAdding: .day, value: 1, to: dateWithoutYears) {
                     monthsTo = dateNew.months()
-                    yearsTo = dateNew.months()
+                    yearsTo = dateNew.years()
                     daysTo = dateNew.days()
                     
                     string = enb(year: -yearsTo, month: -monthsTo, day: -daysTo)
+                    print("\(string)")
+                    print("\(-yearsTo) \(-monthsTo) \(-daysTo)")
                 }
             }
         }

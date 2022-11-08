@@ -35,12 +35,18 @@ struct RectangleButton: View {
                         .stroke(border, lineWidth: 1)
                 )
         }
+        
     }
 }
 
 struct RectangleButton_Previews: PreviewProvider {
     static var previews: some View {
-        RectangleButton(mainColor: .appMain, secondColor: .appAсcent, border: .appUnique)
-            .frame(width: 200, height: 40)
+        VStack{
+            Color.yellow
+                .ignoresSafeArea()
+            RectangleButton(mainColor: .appMain, secondColor: .appAсcent, border: .appUnique)
+                .frame(width: 200, height: 40)
+        }
+        
     }
 }
