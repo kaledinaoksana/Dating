@@ -22,7 +22,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
         
-        let contentView = WelcomeView()
+        let contentView = ContentView()
 
         if let windowScene = scene as? UIWindowScene {
             let window = UIWindow(windowScene: windowScene)

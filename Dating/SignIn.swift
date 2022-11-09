@@ -1,21 +1,13 @@
 //
-//  WelcomeView.swift
+//  SignIn.swift
 //  Dating
 //
-//  Created by Oksana Kaledina on 14.09.2022.
+//  Created by Oksana Kaledina on 09.11.2022.
 //
 
 import SwiftUI
-import FirebaseCore
-import FirebaseAuth
 
-struct Person{
-    var login: String
-    var password: String
-}
-
-struct WelcomeView: View {
-    
+struct SignIn: View {
     @State var message = ""
     @State var alert = false
     @State var show = false
@@ -75,21 +67,21 @@ struct WelcomeView: View {
               
                 Button (action: {
                     
-                    signUpWithEmail(email: self.person.login, password: self.person.password) { (verified, status) in
-                        
+                    signInWithEmail(email: self.person.login, password: self.person.password) { (verified, status) in
+                           
                            if !verified {
                                
                                self.message = status
                                self.alert.toggle()
                            }
                            else{
-                               
+                              
                                UserDefaults.standard.set(true, forKey: "status")
                                NotificationCenter.default.post(name: NSNotification.Name("statusChange"), object: nil)
                            }
                        }
                     
-                      
+                       
                     
                 }) {
                     ZStack{
@@ -108,8 +100,8 @@ struct WelcomeView: View {
                     //.sheet(isPresented: $isPresented){ListView(isPresented: $isPresented)}
                     .alert(isPresented: $alert) {
                                         
-                        Alert(title: Text("Error"), message: Text(self.message), dismissButton: .default(Text("Ok")))
-                    }
+                                        Alert(title: Text("Error"), message: Text(self.message), dismissButton: .default(Text("Ok")))
+                                }
                     }
                      
                 
@@ -119,43 +111,10 @@ struct WelcomeView: View {
         }
     }
     
-    
-  
-    
-    
 }
 
-struct WelcomeView_Previews: PreviewProvider {
+struct SignIn_Previews: PreviewProvider {
     static var previews: some View {
-        WelcomeView()
-    }
-}
-
-
-func signInWithEmail(email: String,password : String,completion: @escaping (Bool,String)->Void){
-    
-    Auth.auth().signIn(withEmail: email, password: password) { (res, err) in
-        
-        if err != nil{
-            
-            completion(false,(err?.localizedDescription)!)
-            return
-        }
-        
-        completion(true,(res?.user.email)!)
-    }
-}
-
-func signUpWithEmail(email: String,password : String,completion: @escaping (Bool,String)->Void){
-    
-    Auth.auth().createUser(withEmail: email, password: password) { (res, err) in
-        
-        if err != nil{
-            
-            completion(false,(err?.localizedDescription)!)
-            return
-        }
-        
-        completion(true,(res?.user.email)!)
+        SignIn()
     }
 }
